@@ -37,6 +37,8 @@ import Runing2Example from "./life-cycle/runing2-example";
 import Runing3 from "./life-cycle/runing3";
 import Runing3Example from "./life-cycle/runing3-example";
 import Destory from "./life-cycle/destory";
+import GetDerivedStateFromProps from "./life-cycle/getDerivedStateFromProps";
+import GDSFPExample from "./life-cycle/gDSFP-example";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 function AllPages () {
   return (
@@ -77,13 +79,15 @@ function AllPages () {
      <Runing2Example />
      <Runing3 />
      <Runing3Example />
+     <Destory />
+     <GetDerivedStateFromProps />
     </>
   )
 }
 AllPages()
 root.render(
   <React.StrictMode>
-    <Destory />
+    <GDSFPExample />
   </React.StrictMode>
 );
 // root.render(
