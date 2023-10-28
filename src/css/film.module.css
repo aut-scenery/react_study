@@ -1,0 +1,16 @@
+.filmItem {
+  height: 180px;
+}
+.filmItem img {
+   width: 100px;
+   height: 180px;
+   float: left;
+}
+.filmdetail {
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  right: 0;
+  top: 100px;
+}

@@ -1,0 +1,522 @@
+{
+  "status": 0,
+  "data": {
+    "films": [
+      {
+        "filmId": 6560,
+        "name": "坚如磐石",
+        "poster": "https://pic.maizuo.com/usr/movie/6c850bf378a1d79fcb5b82664c5257f7.jpg",
+        "actors": [
+          {
+            "name": "张艺谋",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/901cd60e86dca068bdfbccb2457a28f6.jpg"
+          },
+          {
+            "name": "雷佳音",
+            "role": "苏见明",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/f8bc995baa59dde9b10f81a3dea75bfd.jpg"
+          },
+          {
+            "name": "张国立",
+            "role": "郑刚",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/49da4b268316ea607a6e00d11f0f4a86.jpg"
+          },
+          {
+            "name": "于和伟",
+            "role": "黎志田",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/5612e4e51eaca8803beac61e86c00272.jpg"
+          },
+          {
+            "name": "周冬雨",
+            "role": "李惠琳",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/6fd569e16306588d15e0f3898ff3be96.jpg"
+          }
+        ],
+        "director": "张艺谋",
+        "category": "剧情|动作|犯罪",
+        "synopsis": "导演张艺谋回归现实题材之作，故事围绕苏见明（雷佳音 饰）与李惠琳（周冬雨 饰）联手调查一起暗流涌动、牵扯巨大利益集团的犯罪案件展开。为了调查案情，苏见明不顾位高权重的父亲郑刚（张国立 饰）的劝阻，赶赴富商黎志田（于和伟 饰）的“鸿门宴”，在观看了一出黎志田愚弄他人、手入火锅的猖狂戏码后，越来越多的线索逐渐浮出水面。在这些线索背后的暗流涌动，让人隐隐感到一盘大棋正在筹谋。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1695859200,
+        "timeType": 3,
+        "runtime": 120,
+        "grade": "7.3",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6568,
+        "name": "志愿军：雄兵出击",
+        "poster": "https://pic.maizuo.com/usr/movie/82ebba150cec3b28261a1adb01c50def.jpg",
+        "actors": [
+          {
+            "name": "陈凯歌",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/e47af7bbbc04f93037c78a790575ba8c.jpg"
+          },
+          {
+            "name": "唐国强",
+            "role": "毛泽东",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/699ce39ab2e1c6f8d05d4edddefa4748.jpg"
+          },
+          {
+            "name": "王砚辉",
+            "role": "彭德怀",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/513949a7a4f19c85f1ccac1212046258.jpg"
+          },
+          {
+            "name": "刘劲",
+            "role": "周恩来",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/f3e8c121d2d7176f67bd0508ea5cb837.jpg"
+          },
+          {
+            "name": "辛柏青",
+            "role": "李默尹",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/4f7ae928bf11e6576d6af4320a42bdb4.png"
+          }
+        ],
+        "director": "陈凯歌",
+        "category": "剧情|历史|战争",
+        "synopsis": "为纪念抗美援朝战争胜利70周年，陈凯歌将打造《志愿军》三部曲，全景式、多维度立体展现这场新中国的立国之战。电影《志愿军：雄兵出击》为该系列首部。1949年建国初期，新中国面临“内忧外患”局面。朝鲜内战爆发以来，美军屡在中朝边境挑衅，平民惨遭轰炸。为了维护来之不易的和平、为了世代长久的安稳，1950年10月，中国人民志愿军入朝，“抗美援朝”战争拉开帷幕。这是一场“举国之战”——朝鲜战场，即使军备实力对比悬殊，我军却用壮烈牺牲换回节节胜利；外交舞台，中华人民共和国代表团首度亮相联合国，中国新声赢得国际敬畏。新中国，寸土不让扬国威；新青年，意气风发保家国。",
+        "filmType": {
+          "name": "4D",
+          "value": 13
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1695859200,
+        "timeType": 3,
+        "runtime": 140,
+        "grade": "7.9",
+        "item": {
+          "name": "4D",
+          "type": 13
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6567,
+        "name": "莫斯科行动",
+        "poster": "https://pic.maizuo.com/usr/movie/a90d7cf8358aac885155f4d99c9b965f.jpg",
+        "actors": [
+          {
+            "name": "邱礼涛",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/03f51d6fde99eaa0a39cbc5db3d6514b.jpg"
+          },
+          {
+            "name": "张涵予",
+            "role": "崔振海",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/cfd20e6c4e18bf47d44cf685cb448906.jpg"
+          },
+          {
+            "name": "刘德华",
+            "role": "瓦西里",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/a5fc45490b819cda18057b127816b7a3.jpg"
+          },
+          {
+            "name": "黄轩",
+            "role": "苗青山",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/10435488faaca8f9c4b53d9418c26d4c.jpg"
+          },
+          {
+            "name": "文咏珊",
+            "role": "真真",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/2dfb8869c064ac74816821d93ac8ab20.jpg"
+          }
+        ],
+        "director": "邱礼涛",
+        "category": "剧情|犯罪|动作",
+        "synopsis": "根据中国第一桩跨境追捕真实案件改编，国庆档唯一犯罪动作大片！刘德华张涵予黄轩斗智斗勇正面交锋！90年代初，苏联解体，俄罗斯经济接近崩溃。大批中国倒爷乘坐K3次北京至莫斯科国际列车将中国商品倒卖到俄罗斯，获取天价利润。以苗青山（黄轩 饰）为首的悍匪集团在承载着巨额现金和财富的K3列车上进行了丧心病狂的连环洗劫和强奸，案件轰动世界！中国警察崔振海（张涵予 饰）带领公安小队伪装成商人，深入莫斯科展开抓捕行动。过程中，化名为瓦西里的神秘人（刘德华 饰）和一名叫真真的女子（文咏珊 饰）引起了警方的注意，一个更大的惊天阴谋逐渐揭开……",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1695945600,
+        "timeType": 3,
+        "runtime": 129,
+        "grade": "7.2",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6564,
+        "name": "前任4：英年早婚",
+        "poster": "https://pic.maizuo.com/usr/movie/6652e14ebdc10d34351b46ed0b2a203b.jpg",
+        "actors": [
+          {
+            "name": "田羽生",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/b0e5d81dfe1c91571be5cd380e25a104.jpg"
+          },
+          {
+            "name": "韩庚",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/a05a52248f4f4ab50ac098794426da51.jpg"
+          },
+          {
+            "name": "郑恺",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/d5565a2d8f3977c4523b855df70a0220.jpg"
+          },
+          {
+            "name": "于文文",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/adb667123cbdc126c57efe73ae31f93a.jpg"
+          },
+          {
+            "name": "刘雅瑟",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/b04fb03af43c87854fe63d045387efe3.jpg"
+          }
+        ],
+        "director": "田羽生",
+        "category": "爱情|喜剧",
+        "synopsis": "十年前任，9.28就爱吧！9月28日一起看129分钟的《前任4》吧，我们也要爱很久很久。孟云（韩庚 饰）和余飞（郑恺 饰）这对难兄难弟，在历经情场的洗礼之后，终于来到了谈婚论嫁的年纪。正在经历“分手后遗症”的孟云，面对家人的催促，带着“为什么要结婚”的疑问，开始寻找真爱；而余飞和女友丁点（曾梦雪 饰）为了应对结婚后即将产生的各种情况，自创了“结婚冷静期”，将婚后生活提前预演。两兄弟开启一场全新的爱情挑战……",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1695859200,
+        "timeType": 3,
+        "runtime": 129,
+        "grade": "7.1",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6576,
+        "name": "河边的错误",
+        "poster": "https://pic.maizuo.com/usr/movie/6766e8827df785bbc5f9acc1efff8241.jpg",
+        "actors": [
+          {
+            "name": "魏书钧",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/b745d04f0d53f62df075428ebd5f9b89.jpg"
+          },
+          {
+            "name": "朱一龙",
+            "role": "马哲",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/5fe913e824da4023670f9840a5f619fc.jpg"
+          },
+          {
+            "name": "曾美慧孜",
+            "role": "白洁",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/439ca19b4384d9eb7be05f459c89287e.jpg"
+          },
+          {
+            "name": "侯天来",
+            "role": "局长",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/03d695f6262b3e8b1edd141d0cb7b724.jpg"
+          },
+          {
+            "name": "佟林楷",
+            "role": "小谢",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/da3147d28ab9901a3f77570a7c2c1702.jpg"
+          }
+        ],
+        "director": "魏书钧",
+        "category": "剧情|犯罪",
+        "synopsis": "入围第 76 届戛纳电影节“一种关注”官方单元，改编自余华同名先锋代表作，魏书钧导演最新荒诞现实主义作者电影，看似是刑警队长马哲（朱一龙 饰）在找寻凶案的真相，但故事没有答案，因为命运的看法比我们更准确......",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1697846400,
+        "timeType": 3,
+        "runtime": 102,
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6537,
+        "name": "好像也没那么热血沸腾",
+        "poster": "https://pic.maizuo.com/usr/movie/ebdee54be3b9e7d65d60dd460ae01ae3.jpg",
+        "actors": [
+          {
+            "name": "高虎",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/88b309062389fda6871bbb9921978a40.jpg"
+          },
+          {
+            "name": "魏翔",
+            "role": "魏国铮",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/164dd1b5511460986861db8726a6c817.jpg"
+          },
+          {
+            "name": "王智",
+            "role": "乐光",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/a6439526edc4a21f405ddb4700d8f7a4.jpg"
+          },
+          {
+            "name": "岳亮",
+            "role": "乐亮",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/783ab686e107e289393598563af8acf9.jpg"
+          },
+          {
+            "name": "艾伦",
+            "role": "马教练",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/08a9cb3d1f419d90939901352307f417.jpg"
+          }
+        ],
+        "director": "高虎",
+        "category": "喜剧|剧情",
+        "synopsis": "《这个杀手不太冷静》原班制作人马惊喜回归，魏翔携手心青年暖心演绎笑泪齐飞！讲述了对胜利无比执着的篮球教练魏国铮(魏翔 饰)，因违规受罚被迫进入一所特殊的学校支教。当奉行“打球就是为了赢”的自负教练，遇上一群热爱篮球但“能力值为负”的球员，在鸡同鸭讲式的日常相处和不停陷入中断的篮球训练中，濒临崩溃的魏教练会有奇招延续自己的不败神话吗？他们又能否一起负负得正，在即将到来的联赛上一路高歌猛进、披荆斩棘、勇夺冠军？电影改编自西班牙国民级感人佳作《篮球冠军》，中/美/印三国均有翻拍版本。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1695859200,
+        "timeType": 3,
+        "runtime": 135,
+        "grade": "7.1",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6578,
+        "name": "最好的相遇",
+        "poster": "https://pic.maizuo.com/usr/movie/22607711b22cfbf65592a336fce6106f.jpg",
+        "actors": [
+          {
+            "name": "哈智超",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/2e204a5fca437136b0242807c0cbaae5.jpg"
+          },
+          {
+            "name": "金世佳",
+            "role": "曹卢医",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/e0da655d0a5f59b5728465e1609aaf51.jpg"
+          },
+          {
+            "name": "邱泽",
+            "role": "刘英俊",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/e18b5c14a7f23d17e38e0281812aa103.jpg"
+          },
+          {
+            "name": "张钧甯",
+            "role": "吴燕子",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/57970a3dd17cca49a87a9ea653aeffaf.jpg"
+          },
+          {
+            "name": "姜珮瑶",
+            "role": "李文静",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/9a8b144204591ee5494b0e4fe738a071.jpg"
+          }
+        ],
+        "director": "哈智超",
+        "category": "爱情|剧情",
+        "synopsis": "华语影坛罕见题材，金世佳、邱泽、张钧甯实力派俊男美女互飙演技！好笑又好哭的治愈爱情故事。人生失意的B超师曹卢医（金世佳 饰）经人介绍来到了东山庭院疗养院工作。在这里，曹卢医看到了另一个如世外桃源般不同寻常的世界，也结识了刘英俊（邱泽 饰）和吴燕子（张钧甯 饰）这一对特殊的恋人。他们笨拙却无比坚定的爱情慢慢改变了隐藏着秘密的曹卢医。而直到一场意外的降临，让所有人都陷入了艰难的抉择……",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "中国大陆",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1697760000,
+        "timeType": 3,
+        "runtime": 110,
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6563,
+        "name": "汪汪队立大功大电影2：超能大冒险",
+        "poster": "https://pic.maizuo.com/usr/movie/291ad328f0db1bb68a4386edbf3f3ab0.jpg",
+        "actors": [
+          {
+            "name": "卡尔·布伦克尔",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/eb923ef30de1c3226b69254da1cb6ebc.jpg"
+          },
+          {
+            "name": "天天",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/42bcc7bfd6fb56ecc31ae031413fefef.jpg"
+          },
+          {
+            "name": "阿奇",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/e1350e053f99fbb14da744b8f1e56712.jpg"
+          },
+          {
+            "name": "莱德队长",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/c93ac598f72df2595cb6dddbaef23aec.png"
+          },
+          {
+            "name": "贝贝",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/e439d85e91c6782cecb6f8eb7032d373.jpg"
+          }
+        ],
+        "director": "卡尔·布伦克尔",
+        "category": "动画",
+        "synopsis": "汪汪队意外获得超能力，变成了超能狗狗！能随心飞的天天、有飞毛腿的阿奇、是万人迷的灰灰、会霹雳火的毛毛、成大力士的小砾、不怕风浪的路马……但也有坏蛋盯上了汪汪队的超能力，企图毁灭世界，勇敢狗狗，不怕困难，汪汪队集体出动能否再次拯救世界？",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "美国,加拿大",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1695945600,
+        "timeType": 3,
+        "runtime": 88,
+        "grade": "7.8",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6510,
+        "name": "奥本海默",
+        "poster": "https://pic.maizuo.com/usr/movie/08d6cc18ee1bc9ffff4101fb0e6d7ad7.jpg",
+        "actors": [
+          {
+            "name": "克里斯托弗·诺兰",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/a73d674f231ee8fa22996e849ea39ddc.jpg"
+          },
+          {
+            "name": "基里安·墨菲",
+            "role": "J. Robert Oppenheimer",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/0ff428d8726966a49b73cdcf7346fc11.jpg"
+          },
+          {
+            "name": "艾米莉·布朗特",
+            "role": "Katherine Oppenheimer",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/1cb9dd749c4cfa14036c18a603b3536e.jpg"
+          },
+          {
+            "name": "马特·达蒙",
+            "role": "Leslie Groves",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/4c885a5d4324789dd61ea216efa28112.jpg"
+          },
+          {
+            "name": "小罗伯特·唐尼",
+            "role": "Lewis Strauss",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/2c46a5d6afb7611cb28ad515d47368af.jpg"
+          }
+        ],
+        "director": "克里斯托弗·诺兰",
+        "category": "剧情|惊悚|历史",
+        "synopsis": "克里斯托弗·诺兰自编自导新片《奥本海默》，聚焦基里安·墨菲饰演的“原子弹之父”罗伯特·奥本海默。观众将看到一个谜一般的男人是如何陷入一个自相矛盾的困境：他为了拯救这个世界，必须先毁灭它。　　改编自凯·伯德和马丁·J·舍温所著罗伯特·奥本海默传记《美国普罗米修斯：罗伯特·奥本海默的胜利与悲剧》，该书曾获2005年普利策传记文学奖。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "美国,英国",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1693353600,
+        "timeType": 3,
+        "runtime": 180,
+        "grade": "7.4",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      },
+      {
+        "filmId": 6580,
+        "name": "珍·古道尔的传奇一生",
+        "poster": "https://pic.maizuo.com/usr/movie/e923aa3268c556b07b9e75ab252e6e95.jpg",
+        "actors": [
+          {
+            "name": "布莱特·摩根",
+            "role": "导演",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/c4f1c68a65ff8da34690cd0d4a0facf7.jpg"
+          },
+          {
+            "name": "珍·古道尔",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/3cf51e59cc33cdd1f75afc7372f926d1.jpg"
+          },
+          {
+            "name": "雨果·凡·拉维克",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/0190fd24f255a477df0d836f719e65d5.jpg"
+          },
+          {
+            "name": "雨果·埃里克·路易斯·凡·拉维克",
+            "role": "演员",
+            "avatarAddress": "https://pic.maizuo.com/usr/movie/fb51bcab27323789ebaa25b09666f14d.jpg"
+          }
+        ],
+        "director": "布莱特·摩根",
+        "category": "纪录片|传记",
+        "synopsis": "影片主角是在世界上拥有极高声誉的动物学家 珍·古道尔，她二十多岁时前往非洲的原始森林，为了观察黑猩猩，在那里度过了三十八年的野外生涯，后来常年奔走于世界各地，呼吁人们保护野生动物、保护地球环境。 导演布莱特·摩根尤其擅长人物刻画，他从100多个小时从未公布过的珍·古道尔在野外考察和访谈的影像资料中选材剪辑，以第一人称视角，讲述了珍·古道尔年轻时在非洲研究黑猩猩的故事。伴随菲利普·格拉斯的迷人配乐，让观众感受到在那个仍由男性主导野外科研的年代，一个女人如何通过激情、奉献和毅力改变世界。影片还把人类的命运与动物交织在一起，大大强化了人与自然的关系。2017年获得第16届 华盛顿影评人协会奖最佳纪录片最佳纪录片奖。",
+        "filmType": {
+          "name": "2D",
+          "value": 1
+        },
+        "nation": "美国",
+        "language": "",
+        "videoId": "",
+        "premiereAt": 1697500800,
+        "timeType": 3,
+        "runtime": 90,
+        "grade": "7.3",
+        "item": {
+          "name": "2D",
+          "type": 1
+        },
+        "isPresale": true,
+        "isSale": false
+      }
+    ],
+    "total": 46
+  },
+  "msg": "ok"
+}

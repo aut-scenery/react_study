@@ -1,0 +1,19 @@
+.bottomUl {
+  list-style: none;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.bottomUl li {
+  width: 33.3%;
+  text-align: center;
+  background-color: white;
+}
+.active {
+  color: rgb(255, 255, 44);
+  background-color: green !important;
+}
