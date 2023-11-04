@@ -7,6 +7,7 @@ export default class GetDerivedStateFromProps extends Component {
      age: 12
   }
   //  初始化、数据更新、父传子中都会调用
+  // 用于代替componentWillMount和componentWillReceiveProps
   static getDerivedStateFromProps (nextProps, nextState) {
     console.log('getDerivedStateFromProps')
     console.log(nextProps, nextState)

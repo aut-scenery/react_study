@@ -39,6 +39,8 @@ import Runing3Example from "./life-cycle/runing3-example";
 import Destory from "./life-cycle/destory";
 import GetDerivedStateFromProps from "./life-cycle/getDerivedStateFromProps";
 import GDSFPExample from "./life-cycle/gDSFP-example";
+import GetSnapshotBeforeUpdate from "./life-cycle/getSnapshotBeforeUpdate";
+import GSBUExample from "./life-cycle/gSBU-example";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 function AllPages () {
   return (
@@ -81,13 +83,15 @@ function AllPages () {
      <Runing3Example />
      <Destory />
      <GetDerivedStateFromProps />
+     <GDSFPExample />
+     <GetSnapshotBeforeUpdate />
     </>
   )
 }
 AllPages()
 root.render(
   <React.StrictMode>
-    <GDSFPExample />
+    <GSBUExample />
   </React.StrictMode>
 );
 // root.render(
