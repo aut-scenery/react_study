@@ -42,6 +42,7 @@ import GDSFPExample from "./life-cycle/gDSFP-example";
 import GetSnapshotBeforeUpdate from "./life-cycle/getSnapshotBeforeUpdate";
 import GSBUExample from "./life-cycle/gSBU-example";
 import PureComponentName from "./life-cycle/pureComponent";
+import SwiperOne from "./practise/SwiperOne";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 function AllPages () {
   return (
@@ -87,13 +88,14 @@ function AllPages () {
      <GDSFPExample />
      <GetSnapshotBeforeUpdate />
      <GSBUExample />
+     <PureComponentName />
     </>
   )
 }
 AllPages()
 root.render(
   <React.StrictMode>
-    <PureComponentName />
+    <SwiperOne />
   </React.StrictMode>
 );
 // root.render(
