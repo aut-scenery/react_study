@@ -6,3 +6,7 @@ React的事件对象是合成对象，不是原生的。
 原生事件传入一个字符串，React中使用JSX传入函数作为事件处理函数。
 原生事件可以使用return false阻止默认行为，React中必须显式使用preventdefault。
 **优点：** 好处是占用内存小，不用考虑什么时候移除这个事件
+## 2、React 中的性能优化方案
+1、手动优化 shouldComponentUpdate
+2、自动优化 PureComponent
+**缺点：** 如果state或props永远在变就不太适用

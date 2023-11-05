@@ -41,6 +41,7 @@ import GetDerivedStateFromProps from "./life-cycle/getDerivedStateFromProps";
 import GDSFPExample from "./life-cycle/gDSFP-example";
 import GetSnapshotBeforeUpdate from "./life-cycle/getSnapshotBeforeUpdate";
 import GSBUExample from "./life-cycle/gSBU-example";
+import PureComponentName from "./life-cycle/pureComponent";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 function AllPages () {
   return (
@@ -85,13 +86,14 @@ function AllPages () {
      <GetDerivedStateFromProps />
      <GDSFPExample />
      <GetSnapshotBeforeUpdate />
+     <GSBUExample />
     </>
   )
 }
 AllPages()
 root.render(
   <React.StrictMode>
-    <GSBUExample />
+    <PureComponentName />
   </React.StrictMode>
 );
 // root.render(
