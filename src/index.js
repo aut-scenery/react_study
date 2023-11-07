@@ -3,11 +3,19 @@ import ReactDOM from "react-dom/client";
 import UseState from "./hooks/useState";
 import UseStateExample from "./hooks/useState-example";
 import UseEffect from "./hooks/useEffect";
+import UseEffect1 from "./hooks/useEffect1";
+import UseEffect1Example from "./hooks/useEffect1-example";
+import UseEffect2 from "./hooks/useEffect2";
+import UseLayoutEffect from "./hooks/useLayoutEffect";
 function AllPages1 () {
   return (
     <div>
       <UseState />
       <UseStateExample />
+      <UseEffect />
+      <UseEffect1 />
+      <UseEffect1Example />
+      <UseEffect2 />
     </div>
   )
 }
@@ -16,7 +24,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <UseEffect />
+    <UseLayoutEffect />
   </React.StrictMode>
 );
 // root.render(
