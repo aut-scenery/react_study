@@ -7,6 +7,7 @@ import UseEffect1 from "./hooks/useEffect1";
 import UseEffect1Example from "./hooks/useEffect1-example";
 import UseEffect2 from "./hooks/useEffect2";
 import UseLayoutEffect from "./hooks/useLayoutEffect";
+import UseCallback from "./hooks/useCallback";
 function AllPages1 () {
   return (
     <div>
@@ -16,6 +17,7 @@ function AllPages1 () {
       <UseEffect1 />
       <UseEffect1Example />
       <UseEffect2 />
+      <UseLayoutEffect />
     </div>
   )
 }
@@ -24,7 +26,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <UseLayoutEffect />
+    <UseCallback />
   </React.StrictMode>
 );
 // root.render(
