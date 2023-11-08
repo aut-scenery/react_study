@@ -16,3 +16,5 @@ React的事件对象是合成对象，不是原生的。
 官方建议优先使用 useEffect
 在实际使用时如果想避免页面抖动(在useEffect里修改DOM很有可能出现)的话，可以把需要操作DOM的代码放在useLayoutEffect里。在这里做DOM
 操作，这些DOM的修改会和react做出的更改一起被一次性渲染到屏幕上，只有一次回流、重绘的代价。
+## 4、React 缓存数据的方案
+函数式组件可以使用useRef来实现缓存，通过 ``.current``来获取值

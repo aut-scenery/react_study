@@ -8,6 +8,9 @@ import UseEffect1Example from "./hooks/useEffect1-example";
 import UseEffect2 from "./hooks/useEffect2";
 import UseLayoutEffect from "./hooks/useLayoutEffect";
 import UseCallback from "./hooks/useCallback";
+import UseMemo from "./hooks/useMemo";
+import UseRef from "./hooks/useRef";
+import UseRefSaveData from "./hooks/useRef-saveData";
 function AllPages1 () {
   return (
     <div>
@@ -18,6 +21,9 @@ function AllPages1 () {
       <UseEffect1Example />
       <UseEffect2 />
       <UseLayoutEffect />
+      <UseCallback />
+      <UseMemo />
+      <UseRef />
     </div>
   )
 }
@@ -26,7 +32,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <UseCallback />
+    <UseRefSaveData />
   </React.StrictMode>
 );
 // root.render(
