@@ -48,7 +48,7 @@ class FilmItem extends Component {
   }
 }
 
-export default class Intermediator extends Component {
+export default class Context extends Component {
 
   constructor () {
     super()

@@ -11,6 +11,7 @@ import UseCallback from "./hooks/useCallback";
 import UseMemo from "./hooks/useMemo";
 import UseRef from "./hooks/useRef";
 import UseRefSaveData from "./hooks/useRef-saveData";
+import UseContext from "./hooks/useContext";
 function AllPages1 () {
   return (
     <div>
@@ -24,6 +25,7 @@ function AllPages1 () {
       <UseCallback />
       <UseMemo />
       <UseRef />
+      <UseRefSaveData />
     </div>
   )
 }
@@ -32,7 +34,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <UseRefSaveData />
+    <UseContext />
   </React.StrictMode>
 );
 // root.render(
