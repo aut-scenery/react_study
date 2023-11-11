@@ -14,6 +14,7 @@ import UseRefSaveData from "./hooks/useRef-saveData";
 import UseContext from "./hooks/useContext";
 import UseReducer1 from "./hooks/useReducer1";
 import UseReducer2 from "./hooks/useReducer2";
+import CustomHooks from "./hooks/customHooks";
 function AllPages1 () {
   return (
     <div>
@@ -30,6 +31,7 @@ function AllPages1 () {
       <UseRefSaveData />
       <UseContext />
       <UseReducer1 />
+      <UseReducer2 />
     </div>
   )
 }
@@ -38,7 +40,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <UseReducer2 />
+    <CustomHooks />
   </React.StrictMode>
 );
 // root.render(
