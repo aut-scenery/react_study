@@ -12,6 +12,8 @@ import UseMemo from "./hooks/useMemo";
 import UseRef from "./hooks/useRef";
 import UseRefSaveData from "./hooks/useRef-saveData";
 import UseContext from "./hooks/useContext";
+import UseReducer1 from "./hooks/useReducer1";
+import UseReducer2 from "./hooks/useReducer2";
 function AllPages1 () {
   return (
     <div>
@@ -26,6 +28,8 @@ function AllPages1 () {
       <UseMemo />
       <UseRef />
       <UseRefSaveData />
+      <UseContext />
+      <UseReducer1 />
     </div>
   )
 }
@@ -34,7 +38,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <UseContext />
+    <UseReducer2 />
   </React.StrictMode>
 );
 // root.render(
