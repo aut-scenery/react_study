@@ -4,6 +4,7 @@ import Film from '../views/film'
 import Cinema from '../views/cinema'
 import Center from '../views/center'
 
+
 export default class Index extends Component {
   render() {
     return (
