@@ -9,6 +9,7 @@ export default class Index extends Component {
   render() {
     return (
       <HashRouter>
+        { this.props.children}
         <Switch>
           <Route path="/film" component={Film}></Route>
           <Route path="/cinema" component={Cinema}></Route>
