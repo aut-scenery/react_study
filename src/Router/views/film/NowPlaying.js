@@ -22,7 +22,18 @@ export default function NowPlaying(props) {
 
   const history = useHistory()
   const handleChangePage = (id) => {
-    history.push(`/detail/${id}`)
+    // 第一种传参方式  动态路由
+    // history.push(`/detail/${id}`)
+    // 第二种传参方式  query传参
+    // history.push({
+    //   pathname: '/detail',
+    //   query: {id: id}
+    // })
+    // 第三种传参方式  state传参
+    history.push({
+      pathname: '/detail',
+      state: {id}
+    })
     // console.log(props)
     // props.history.push(`/detail/${id}`)
   }
