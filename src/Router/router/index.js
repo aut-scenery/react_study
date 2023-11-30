@@ -22,8 +22,8 @@ export default class Index extends Component {
           <Route path="/film" component={Film}></Route>
           <Route path="/cinema" component={Cinema}></Route>
           {/* <Route path="/center" component={Center}></Route> */}
-          <Route path="/center" render={() => {
-            return isAuth() ? <Center /> : <Redirect to="/login" />
+          <Route path="/center" render={(props) => {
+            return isAuth() ? <Center {...props} /> : <Redirect to="/login" />
           }}></Route>
           <Route path="/login" component={Login}></Route>
           {/* /detail/1111  动态路由 */}

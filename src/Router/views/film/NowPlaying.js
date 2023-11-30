@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import { useHistory } from 'react-router-dom'
+import { useHistory, withRouter } from 'react-router-dom'
 
 export default function NowPlaying(props) {
 
@@ -42,11 +42,18 @@ export default function NowPlaying(props) {
     <div>
       <ul>
         {
-          list.map(item => <li key={item.filmId} onClick={() => handleChangePage(item.filmId)}>
-            { item.name }
-          </li>)
+          list.map(item =><WithFilmItem key={item.filmId} {...item}></WithFilmItem>)
         }
       </ul>
     </div>
   )
 }
+function FilmItem (props) {
+  let { name, filmId } = props
+  return <li onClick={() => {
+    props.history.push(`/detail/${filmId}`)
+  }}>
+    { name }
+  </li>
+}
+const WithFilmItem = withRouter(FilmItem)

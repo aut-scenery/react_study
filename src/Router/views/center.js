@@ -3,7 +3,15 @@ import React, { Component } from 'react'
 export default class Center extends Component {
   render() {
     return (
-      <div>center</div>
+      <div>
+        <div onClick={
+          () => {
+            this.props.history.push('/filmorder')
+          }
+        }>
+          电影订票
+        </div>
+      </div>
     )
   }
 }
