@@ -19,6 +19,7 @@ export default function UseMemo () {
       console.log(err);
     })
   }, [])
+  // 相当于vue中的计算属性
   const getCinemaList = useMemo(() => cinemaList.filter(item => item.name.toUpperCase().includes(text.toUpperCase()) ||
   item.address.toUpperCase().includes(text.toUpperCase())), [text, cinemaList])
   return (

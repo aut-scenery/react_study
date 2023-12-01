@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-
+// 副作用函数，相当于vue中的生命周期
 export default function UseEffect() {
   const [list, setList] = useState([])
   useEffect(() => {

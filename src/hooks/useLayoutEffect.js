@@ -1,6 +1,7 @@
 import React, { useState, useLayoutEffect } from 'react'
 
 function Child () {
+  // 在浏览器重新绘制屏幕之前触发
   useLayoutEffect(() => {
     window.onresize = () => {
       console.log('onresize')

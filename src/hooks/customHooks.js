@@ -22,7 +22,7 @@ function useCinemaList () {
     cinemaList
   }
 }
-
+// 只有use开头的才能使用自定义钩子
 function useFilter (cinemaList, text) {
   const getCinemaList = useMemo(() => cinemaList.filter(item => item.name.toUpperCase().includes(text.toUpperCase()) ||
   item.address.toUpperCase().includes(text.toUpperCase())), [text, cinemaList])
