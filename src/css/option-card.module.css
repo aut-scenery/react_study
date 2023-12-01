@@ -17,3 +17,7 @@
   color: rgb(255, 255, 44);
   background-color: green !important;
 }
+/* 全局 */
+:global(.myglobal) {
+  font-weight: bold;
+}

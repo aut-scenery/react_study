@@ -4,7 +4,7 @@ export default class Center extends Component {
   render() {
     return (
       <div>
-        <div onClick={
+        <div className='myglobal' onClick={
           () => {
             this.props.history.push('/filmorder')
           }
