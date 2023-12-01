@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import { useHistory, withRouter } from 'react-router-dom'
+import { withRouter } from 'react-router-dom'
+// import { useHistory, withRouter } from 'react-router-dom'
 
 export default function NowPlaying(props) {
 
@@ -20,23 +21,23 @@ export default function NowPlaying(props) {
     })
   }, [])
 
-  const history = useHistory()
-  const handleChangePage = (id) => {
-    // 第一种传参方式  动态路由
-    // history.push(`/detail/${id}`)
-    // 第二种传参方式  query传参
-    // history.push({
-    //   pathname: '/detail',
-    //   query: {id: id}
-    // })
-    // 第三种传参方式  state传参
-    history.push({
-      pathname: '/detail',
-      state: {id}
-    })
-    // console.log(props)
-    // props.history.push(`/detail/${id}`)
-  }
+  // const history = useHistory()
+  // const handleChangePage = (id) => {
+  //   // 第一种传参方式  动态路由
+  //   // history.push(`/detail/${id}`)
+  //   // 第二种传参方式  query传参
+  //   // history.push({
+  //   //   pathname: '/detail',
+  //   //   query: {id: id}
+  //   // })
+  //   // 第三种传参方式  state传参
+  //   history.push({
+  //     pathname: '/detail',
+  //     state: {id}
+  //   })
+  //   // console.log(props)
+  //   // props.history.push(`/detail/${id}`)
+  // }
 
   return (
     <div>
