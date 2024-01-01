@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import store from '../redux/store'
 
 export default function Detail(props) {
   // console.log(props)
@@ -7,9 +8,15 @@ export default function Detail(props) {
   // console.log(props.location.state.id)
   console.log(props)
   useEffect(() => {
-    console.log("create")
+    // console.log("create")
+    store.dispatch({
+      type: "hide-tabbar"
+    })
     return () => {
-      console.log('destroy')
+      // console.log('destroy')
+      store.dispatch({
+        type: "show-tabbar"
+      })
     }
   }, [])
   return (
